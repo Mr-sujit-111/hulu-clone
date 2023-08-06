@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import PlansCard from "./plansCard";
 
 const Plans = () => {
   const [toggleState, setToggleState] = useState(1);
