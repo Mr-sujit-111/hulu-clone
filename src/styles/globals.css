@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#06202A] text-gray-300;
+  }
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #274956;
+  border-radius: 12px;
+}
